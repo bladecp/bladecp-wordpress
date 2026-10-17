@@ -1,0 +1,66 @@
+name: Bug report
+description: Report a reproducible problem with BladeCP Migrator.
+title: "Bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the plugin. Please remove keys, passwords, cookies, site data and other sensitive information before submitting. Report security issues privately as described in SECURITY.md.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and its impact, including the message shown on the plugin screen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest reliable sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Explain what you expected to happen instead.
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Enter the released plugin version you are using.
+    validations:
+      required: true
+  - type: input
+    id: wordpress-version
+    attributes:
+      label: WordPress version
+      description: Enter your WordPress version.
+    validations:
+      required: true
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP version
+      description: Enter the PHP version of the site.
+    validations:
+      required: true
+  - type: textarea
+    id: hosting
+    attributes:
+      label: Hosting limits
+      description: Describe the PHP memory and time limits, whether WP-Cron runs, and whether cURL and zlib are available, if you know them.
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant messages or screenshots
+      description: Add sanitized messages or screenshots that help explain the issue.
+    validations:
+      required: false

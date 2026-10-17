@@ -1,0 +1,1057 @@
+# Copyright (C) BladeCP
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: BladeCP Migrator 0.1.0\n"
+"Report-Msgid-Bugs-To: https://developers.bladecp.com/wordpress-migrator\n"
+"PO-Revision-Date: 2026-10-15 00:00+0000\n"
+"Last-Translator: BladeCP\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: bladecp-migrator\n"
+
+#: bladecp-migrator.php includes/class-admin-page.php
+msgid "BladeCP Migrator"
+msgstr "BladeCP Migrator"
+
+#: bladecp-migrator.php
+msgid "Move this WordPress site to BladeCP Fast Deploy in a few clicks: check, connect, migrate, review and go live."
+msgstr "Mueve este sitio WordPress a Fast Deploy de BladeCP en pocos clics: revisar, conectar, migrar, comprobar y poner en línea."
+
+#: includes/class-admin-page.php
+msgid "Migrate to BladeCP"
+msgstr "Migrar a BladeCP"
+
+#: includes/class-admin-page.php
+msgid "Measuring your site files..."
+msgstr "Midiendo los archivos de tu sitio..."
+
+#. translators: 1: number of files, 2: size so far.
+#: includes/class-admin-page.php
+#, php-format
+msgid "%1$s files, %2$s so far"
+msgstr "%1$s archivos, %2$s hasta ahora"
+
+#: includes/class-admin-page.php
+msgid "Lost contact with your site. Retrying..."
+msgstr "Se perdió la conexión con tu sitio. Reintentando..."
+
+#: includes/class-admin-page.php
+msgid "BladeCP can only connect to a WordPress dashboard served over HTTPS."
+msgstr "BladeCP solo puede conectarse a un escritorio de WordPress servido por HTTPS."
+
+#: includes/class-admin-page.php includes/class-connect-flow.php
+#: includes/class-preflight.php
+msgid "PHP has neither OpenSSL with AES-256-GCM nor sodium, so the BladeCP connection could not be stored safely. Ask your host to enable one of them."
+msgstr "PHP no tiene OpenSSL con AES-256-GCM ni sodium, así que la conexión con BladeCP no podría guardarse de forma segura. Pide a tu proveedor de hosting que active uno de ellos."
+
+#: includes/class-admin-page.php
+msgid "Disconnected. The BladeCP key was removed from this site."
+msgstr "Desconectado. La clave de BladeCP se eliminó de este sitio."
+
+#: includes/class-admin-page.php
+msgid "Connect to BladeCP first."
+msgstr "Primero conéctate con BladeCP."
+
+#: includes/class-admin-page.php
+msgid "Fix the problems listed under \"Check your site\" first."
+msgstr "Primero corrige los problemas indicados en \"Revisa tu sitio\"."
+
+#: includes/class-admin-page.php includes/class-api-error.php
+msgid "This migration no longer accepts a new package. Open it in BladeCP to see its current state."
+msgstr "Esta migración ya no acepta un paquete nuevo. Ábrela en BladeCP para ver su estado actual."
+
+#: includes/class-admin-page.php
+msgid "Some site settings cannot be migrated. See \"Check your site\"."
+msgstr "Algunos ajustes del sitio no se pueden migrar. Consulta \"Revisa tu sitio\"."
+
+#: includes/class-admin-page.php
+msgid "Migration started. Keep this page open for the fastest progress."
+msgstr "Migración iniciada. Mantén esta página abierta para avanzar más rápido."
+
+#: includes/class-admin-page.php
+msgid "Stopped. The local package was deleted. Your BladeCP migration was not cancelled."
+msgstr "Detenido. Se eliminó el paquete local. Tu migración en BladeCP no se canceló."
+
+#: includes/class-admin-page.php
+msgid "Trying again."
+msgstr "Intentándolo de nuevo."
+
+#: includes/class-admin-page.php
+msgid "Enter a valid domain, for example example.com."
+msgstr "Escribe un dominio válido, por ejemplo example.com."
+
+#: includes/class-admin-page.php
+msgid "Domain confirmed. BladeCP continues the migration."
+msgstr "Dominio confirmado. BladeCP continúa la migración."
+
+#: includes/class-admin-page.php
+msgid "Migration approved. BladeCP is preparing your site for your domain."
+msgstr "Migración aprobada. BladeCP está preparando tu sitio para tu dominio."
+
+#: includes/class-admin-page.php
+msgid "Migration cancelled. Your current site was not changed."
+msgstr "Migración cancelada. Tu sitio actual no se cambió."
+
+#: includes/class-admin-page.php
+msgid "BladeCP is trying the migration again."
+msgstr "BladeCP está intentando la migración de nuevo."
+
+#: includes/class-admin-page.php
+msgid "Measuring your site again."
+msgstr "Midiendo tu sitio de nuevo."
+
+#: includes/class-admin-page.php
+msgid "You are not allowed to do this."
+msgstr "No tienes permiso para hacer esto."
+
+#: includes/class-admin-page.php
+msgid "A custom BladeCP address is set in wp-config.php. This is meant for testing only."
+msgstr "Hay una dirección personalizada de BladeCP definida en wp-config.php. Esto es solo para pruebas."
+
+#. translators: %s: number of preflight items to fix.
+#: includes/class-admin-page.php
+#, php-format
+msgid "%s item must be fixed"
+msgid_plural "%s items must be fixed"
+msgstr[0] "%s elemento debe corregirse"
+msgstr[1] "%s elementos deben corregirse"
+
+#: includes/class-admin-page.php
+msgid "Check"
+msgstr "Revisar"
+
+#: includes/class-admin-page.php
+msgid "Connect"
+msgstr "Conectar"
+
+#: includes/class-admin-page.php
+msgid "Migrate"
+msgstr "Migrar"
+
+#: includes/class-admin-page.php
+msgid "Needs your action"
+msgstr "Necesita tu acción"
+
+#: includes/class-admin-page.php
+msgid "Migrator"
+msgstr "Migrator"
+
+#: includes/class-admin-page.php
+msgid "Need help?"
+msgstr "¿Necesitas ayuda?"
+
+#: includes/class-admin-page.php
+msgid "Connected"
+msgstr "Conectado"
+
+#: includes/class-admin-page.php
+msgid "Not connected"
+msgstr "No conectado"
+
+#: includes/class-admin-page.php
+msgid "Move this site to BladeCP in three steps: check, connect, migrate. Your current site keeps working until you point your domain to BladeCP."
+msgstr "Mueve este sitio a BladeCP en tres pasos: revisar, conectar y migrar. Tu sitio actual sigue funcionando hasta que apuntes tu dominio a BladeCP."
+
+#: includes/class-admin-page.php
+msgid "Migration steps"
+msgstr "Pasos de la migración"
+
+#: includes/class-admin-page.php
+msgid "step done"
+msgstr "paso completado"
+
+#: includes/class-admin-page.php
+msgid "Fix the problems marked below before migrating."
+msgstr "Corrige los problemas marcados abajo antes de migrar."
+
+#: includes/class-admin-page.php
+msgid "Everything needed for the migration is in place."
+msgstr "Todo lo necesario para la migración está listo."
+
+#: includes/class-admin-page.php
+msgid "Turn on JavaScript to measure your site and follow the progress on this page."
+msgstr "Activa JavaScript para medir tu sitio y seguir el progreso en esta página."
+
+#: includes/class-admin-page.php
+msgid "Check your site"
+msgstr "Revisa tu sitio"
+
+#: includes/class-admin-page.php
+msgid "See the checked items"
+msgstr "Ver los elementos revisados"
+
+#: includes/class-admin-page.php
+msgid "Measure again"
+msgstr "Medir de nuevo"
+
+#. translators: %s: path of a symbolic link, relative to the WordPress folder.
+#: includes/class-admin-page.php
+#, php-format
+msgid "%s (link)"
+msgstr "%s (enlace)"
+
+#. translators: %s: path of a file or folder PHP cannot read, relative to the WordPress folder.
+#: includes/class-admin-page.php
+#, php-format
+msgid "%s (unreadable)"
+msgstr "%s (ilegible)"
+
+#. translators: %s: number of other skipped items.
+#: includes/class-admin-page.php
+#, php-format
+msgid "%s more"
+msgid_plural "%s more"
+msgstr[0] "%s más"
+msgstr[1] "%s más"
+
+#: includes/class-admin-page.php
+msgid "Must be fixed"
+msgstr "Debe corregirse"
+
+#: includes/class-admin-page.php
+msgid "Warning"
+msgstr "Aviso"
+
+#: includes/class-admin-page.php
+msgid "Checking"
+msgstr "Comprobando"
+
+#: includes/class-admin-page.php
+msgid "OK"
+msgstr "Correcto"
+
+#: includes/class-admin-page.php
+msgid "Connect to BladeCP"
+msgstr "Conectar con BladeCP"
+
+#. translators: %s: date.
+#: includes/class-admin-page.php
+#, php-format
+msgid "The connection is valid until %s."
+msgstr "La conexión es válida hasta el %s."
+
+#: includes/class-admin-page.php
+msgid "This connection can only see and manage the migration you chose in BladeCP. The key is stored encrypted and never shown."
+msgstr "Esta conexión solo puede ver y gestionar la migración que elegiste en BladeCP. La clave se guarda cifrada y nunca se muestra."
+
+#: includes/class-admin-page.php
+msgid "Disconnect"
+msgstr "Desconectar"
+
+#: includes/class-admin-page.php
+msgid "Remove the BladeCP key from this site? A package being built here is deleted. The migration in BladeCP is not cancelled."
+msgstr "¿Eliminar la clave de BladeCP de este sitio? Se borrará el paquete que se esté creando aquí. La migración en BladeCP no se cancela."
+
+#: includes/class-admin-page.php
+msgid "Connect again to continue. The package already built on this site is kept."
+msgstr "Vuelve a conectarte para continuar. Se conserva el paquete ya creado en este sitio."
+
+#: includes/class-admin-page.php
+msgid "You will sign in to BladeCP, choose the server that receives this site and come back here automatically."
+msgstr "Iniciarás sesión en BladeCP, elegirás el servidor que recibe este sitio y volverás aquí automáticamente."
+
+#. translators: %s: names of the checks to fix, as shown under "Check your site" (for example "Secure connection").
+#: includes/class-admin-page.php
+#, php-format
+msgid "To connect, first fix the item marked in red under \"Check your site\": %s."
+msgid_plural "To connect, first fix the items marked in red under \"Check your site\": %s."
+msgstr[0] "Para conectar, primero corrige el elemento marcado en rojo en \"Revisa tu sitio\": %s."
+msgstr[1] "Para conectar, primero corrige los elementos marcados en rojo en \"Revisa tu sitio\": %s."
+
+#. translators: %s: account email, usually masked (for example j***@example.com).
+#: includes/class-admin-page.php
+#, php-format
+msgid "Connected to the BladeCP account %s."
+msgstr "Conectado a la cuenta de BladeCP %s."
+
+#: includes/class-admin-page.php
+msgid "Connected to your BladeCP account."
+msgstr "Conectado a tu cuenta de BladeCP."
+
+#: includes/class-admin-page.php
+msgid "Open this migration in BladeCP"
+msgstr "Abrir esta migración en BladeCP"
+
+#: includes/class-admin-page.php
+msgid "Connect to BladeCP to continue."
+msgstr "Conéctate con BladeCP para continuar."
+
+#: includes/class-admin-page.php
+msgid "Disconnect and connect again to start a new migration."
+msgstr "Desconecta y vuelve a conectar para iniciar una migración nueva."
+
+#: includes/class-admin-page.php
+msgid "One click builds a package with your files and database, sends it to BladeCP and starts the migration. Large sites can take a while."
+msgstr "Un clic crea un paquete con tus archivos y tu base de datos, lo envía a BladeCP e inicia la migración. Los sitios grandes pueden tardar un poco."
+
+#: includes/class-admin-page.php
+msgid "Start migration"
+msgstr "Iniciar migración"
+
+#: includes/class-admin-page.php
+msgid "Migration stages"
+msgstr "Etapas de la migración"
+
+#. translators: 1: number of the current stage, 2: number of stages.
+#: includes/class-admin-page.php
+#, php-format
+msgid "Stage %1$s of %2$s"
+msgstr "Etapa %1$s de %2$s"
+
+#: includes/class-admin-page.php
+msgid "stage done"
+msgstr "etapa completada"
+
+#: includes/class-admin-page.php
+msgid "Try again"
+msgstr "Intentar de nuevo"
+
+#: includes/class-admin-page.php
+msgid "Delete the package built so far?"
+msgstr "¿Eliminar el paquete creado hasta ahora?"
+
+#: includes/class-admin-page.php
+msgid "Start over"
+msgstr "Empezar de nuevo"
+
+#: includes/class-admin-page.php
+msgid "Keep this page open for the fastest progress. If you close it, the work continues more slowly in the background."
+msgstr "Mantén esta página abierta para avanzar más rápido. Si la cierras, el trabajo continúa en segundo plano, más despacio."
+
+#: includes/class-admin-page.php
+msgid "Stop"
+msgstr "Detener"
+
+#: includes/class-admin-page.php
+msgid "Stop and delete the package built so far? Your BladeCP migration is not cancelled."
+msgstr "¿Detener y eliminar el paquete creado hasta ahora? Tu migración en BladeCP no se cancela."
+
+#: includes/class-admin-page.php
+msgid "Details from BladeCP:"
+msgstr "Detalles de BladeCP:"
+
+#: includes/class-admin-page.php
+msgid "Open the preview"
+msgstr "Abrir la vista previa"
+
+#: includes/class-admin-page.php
+msgid "Approve migration"
+msgstr "Aprobar migración"
+
+#: includes/class-admin-page.php
+msgid "Approve the migration? BladeCP then prepares your site to answer on your own domain."
+msgstr "¿Aprobar la migración? Después BladeCP prepara tu sitio para responder en tu propio dominio."
+
+#: includes/class-admin-page.php
+msgid "Cancel migration"
+msgstr "Cancelar migración"
+
+#: includes/class-admin-page.php
+msgid "Cancel this migration? Your current site is not changed."
+msgstr "¿Cancelar esta migración? Tu sitio actual no cambia."
+
+#. translators: %s: domain.
+#: includes/class-admin-page.php
+#, php-format
+msgid "Domain confirmed: %s. Waiting for BladeCP to continue."
+msgstr "Dominio confirmado: %s. Esperando a que BladeCP continúe."
+
+#. translators: 1: number of files, 2: size, 3: PHP version.
+#: includes/class-admin-page.php
+#, php-format
+msgid "BladeCP found %1$s files (%2$s) and PHP %3$s."
+msgstr "BladeCP encontró %1$s archivos (%2$s) y PHP %3$s."
+
+#: includes/class-admin-page.php
+msgid "Domain of your site"
+msgstr "Dominio de tu sitio"
+
+#: includes/class-admin-page.php
+msgid "Confirm domain"
+msgstr "Confirmar dominio"
+
+#. translators: %s: domain of the migrated site.
+#: includes/class-admin-page.php
+#, php-format
+msgid "%s is already on your BladeCP server."
+msgstr "%s ya está en tu servidor BladeCP."
+
+#. translators: %s: domain of the migrated site.
+#: includes/class-admin-page.php
+#, php-format
+msgid "%s already points to BladeCP."
+msgstr "%s ya apunta a BladeCP."
+
+#: includes/class-admin-page.php
+msgid "Open site"
+msgstr "Abrir sitio"
+
+#: includes/class-admin-page.php
+msgid "View the migrated site"
+msgstr "Ver el sitio migrado"
+
+#: includes/class-admin-page.php
+msgid "Copied"
+msgstr "Copiado"
+
+#: includes/class-admin-page.php
+msgid "Point the domain whenever you want"
+msgstr "Cuando quieras, apunta el dominio"
+
+#: includes/class-admin-page.php
+msgid "Optional. Meanwhile, the old site stays online."
+msgstr "Opcional. Mientras tanto, el sitio antiguo sigue en línea."
+
+#: includes/class-admin-page.php
+msgid "Copy both"
+msgstr "Copiar los dos"
+
+#. translators: %s: a nameserver, such as kant.ns.bladecp.com.
+#: includes/class-admin-page.php
+#, php-format
+msgid "Copy %s"
+msgstr "Copiar %s"
+
+#: includes/class-admin-page.php
+msgid "Change them at the provider where you registered the domain."
+msgstr "Cámbialos en el proveedor donde registraste el dominio."
+
+#: includes/class-admin-page.php
+msgid "Change them at the provider where you registered the domain. We check on our own and let you know here when it points."
+msgstr "Cámbialos en el proveedor donde registraste el dominio. Lo verificamos solos y te avisamos aquí cuando apunte."
+
+#. translators: %s: name of the Registro.br button, "Alterar servidores DNS" (kept in Portuguese, as Registro.br shows it).
+#: includes/class-admin-page.php
+#, php-format
+msgid ".br domain: at Registro.br, choose the domain and use %s"
+msgstr "Dominio .br: en Registro.br, elige el dominio y usa %s"
+
+#: includes/class-admin-page.php
+msgid "Open Registro.br"
+msgstr "Abrir Registro.br"
+
+#: includes/class-admin-page.php
+msgid "Or keep your DNS where it is and point the A record instead:"
+msgstr "O mantén el DNS donde está y apunta el registro A:"
+
+#: includes/class-admin-page.php
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-admin-page.php
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/class-admin-page.php
+msgid "Value"
+msgstr "Valor"
+
+#: includes/class-admin-page.php
+msgid "Copy"
+msgstr "Copiar"
+
+#: includes/class-admin-page.php
+msgid "Optional"
+msgstr "Opcional"
+
+#: includes/class-admin-page.php
+msgid "We have not detected the domain pointing to BladeCP yet, and the automatic check has ended. This does not affect the migration. If you point it later and it does not show as connected, contact support."
+msgstr "Todavía no detectamos que el dominio apunte a BladeCP y la verificación automática terminó. Esto no afecta la migración. Si lo apuntas después y no aparece como conectado, contacta al soporte."
+
+#. translators: PHP date() format for a full date, as in "October 23, 2026". Escape literal words with backslashes, as in "j \d\e F \d\e Y".
+#: includes/class-admin-page.php
+msgctxt "full date format"
+msgid "F j, Y"
+msgstr "j \\d\\e F \\d\\e Y"
+
+#: includes/class-admin-page.php
+msgid "Contact support"
+msgstr "Contactar con soporte"
+
+#: includes/class-ajax.php
+msgid "Your session expired. Reload the page."
+msgstr "Tu sesión caducó. Recarga la página."
+
+#: includes/class-api-error.php
+msgid "This domain is already in use in BladeCP. Choose another domain or remove the existing one in BladeCP."
+msgstr "Este dominio ya está en uso en BladeCP. Elige otro dominio o elimina el existente en BladeCP."
+
+#: includes/class-api-error.php
+msgid "A different domain was already confirmed for this migration."
+msgstr "Ya se confirmó un dominio diferente para esta migración."
+
+#: includes/class-api-error.php
+msgid "The domain cannot be confirmed right now. Wait a moment and try again."
+msgstr "No se puede confirmar el dominio ahora. Espera un momento e inténtalo de nuevo."
+
+#: includes/class-api-error.php
+msgid "This migration cannot be retried. Connect again to start a new migration."
+msgstr "Esta migración no se puede reintentar. Vuelve a conectarte para iniciar una migración nueva."
+
+#: includes/class-api-error.php
+msgid "BladeCP storage is temporarily unavailable. The plugin will try again."
+msgstr "El almacenamiento de BladeCP no está disponible por ahora. El plugin lo intentará de nuevo."
+
+#: includes/class-api-error.php
+msgid "Could not reach BladeCP. Check that this site can make outgoing HTTPS connections and try again."
+msgstr "No se pudo contactar con BladeCP. Comprueba que este sitio puede hacer conexiones HTTPS salientes e inténtalo de nuevo."
+
+#: includes/class-api-error.php
+msgid "The authorization expired, was already used or was cancelled. Click \"Connect to BladeCP\" to start again."
+msgstr "La autorización caducó, ya se usó o se canceló. Haz clic en \"Conectar con BladeCP\" para empezar de nuevo."
+
+#: includes/class-api-error.php
+msgid "Your BladeCP connection expired or was removed. Connect to BladeCP again."
+msgstr "Tu conexión con BladeCP caducó o se eliminó. Vuelve a conectarte con BladeCP."
+
+#: includes/class-api-error.php
+msgid "Migrations are not open for your BladeCP account yet. Contact BladeCP support."
+msgstr "Las migraciones aún no están disponibles para tu cuenta de BladeCP. Contacta con el soporte de BladeCP."
+
+#: includes/class-api-error.php
+msgid "This connection only works for the migration chosen in BladeCP. Connect again to start another migration."
+msgstr "Esta conexión solo funciona para la migración elegida en BladeCP. Vuelve a conectarte para iniciar otra migración."
+
+#: includes/class-api-error.php
+msgid "This connection is not allowed to do this. Connect to BladeCP again."
+msgstr "Esta conexión no tiene permiso para esto. Vuelve a conectarte con BladeCP."
+
+#: includes/class-api-error.php
+msgid "This migration was not found in your BladeCP account. Connect again to start a new migration."
+msgstr "No se encontró esta migración en tu cuenta de BladeCP. Vuelve a conectarte para iniciar una migración nueva."
+
+#: includes/class-api-error.php
+msgid "The migration changed in the meantime. The screen now shows its current state."
+msgstr "La migración cambió mientras tanto. La pantalla ahora muestra su estado actual."
+
+#: includes/class-api-error.php includes/class-migration-job.php
+msgid "The site package is larger than the 50 GB limit."
+msgstr "El paquete del sitio supera el límite de 50 GB."
+
+#: includes/class-api-error.php
+msgid "BladeCP received too many requests from this site. The plugin will try again in a minute."
+msgstr "BladeCP recibió demasiadas solicitudes de este sitio. El plugin lo intentará de nuevo en un minuto."
+
+#: includes/class-api-error.php
+msgid "BladeCP is temporarily unavailable. The plugin will try again."
+msgstr "BladeCP no está disponible por ahora. El plugin lo intentará de nuevo."
+
+#: includes/class-api-error.php includes/class-connect-flow.php
+msgid "BladeCP sent a response the plugin did not understand. Try again in a few minutes."
+msgstr "BladeCP envió una respuesta que el plugin no entendió. Inténtalo de nuevo en unos minutos."
+
+#: includes/class-api-error.php
+msgid "BladeCP did not accept the request. Try again, and contact BladeCP support if it keeps happening."
+msgstr "BladeCP no aceptó la solicitud. Inténtalo de nuevo y contacta con el soporte de BladeCP si sigue ocurriendo."
+
+#. translators: %d: HTTP status code.
+#: includes/class-api-error.php
+#, php-format
+msgid "BladeCP returned an unexpected error (HTTP %d)."
+msgstr "BladeCP devolvió un error inesperado (HTTP %d)."
+
+#: includes/class-connect-flow.php
+msgid "This connection link expired or was already used. Click \"Connect to BladeCP\" again."
+msgstr "Este enlace de conexión caducó o ya se usó. Haz clic en \"Conectar con BladeCP\" otra vez."
+
+#: includes/class-connect-flow.php
+msgid "BladeCP could not complete the connection. Click \"Connect to BladeCP\" to try again."
+msgstr "BladeCP no pudo completar la conexión. Haz clic en \"Conectar con BladeCP\" para intentarlo de nuevo."
+
+#: includes/class-connect-flow.php
+msgid "The BladeCP connection could not be stored safely, so nothing was saved. Click \"Connect to BladeCP\" to try again."
+msgstr "No se pudo guardar de forma segura la conexión con BladeCP, así que no se guardó nada. Haz clic en \"Conectar con BladeCP\" para intentarlo de nuevo."
+
+#: includes/class-connect-flow.php
+msgid "Connected to BladeCP. You can start the migration."
+msgstr "Conectado con BladeCP. Ya puedes iniciar la migración."
+
+#: includes/class-connect-flow.php
+msgid "The connection was cancelled in BladeCP. Nothing was changed. Click \"Connect to BladeCP\" when you want to try again."
+msgstr "La conexión se canceló en BladeCP. No se cambió nada. Haz clic en \"Conectar con BladeCP\" cuando quieras intentarlo de nuevo."
+
+#: includes/class-connect-flow.php
+msgid "This connection request expired or was cancelled in BladeCP. Click \"Connect to BladeCP\" to start again."
+msgstr "Esta solicitud de conexión caducó o se canceló en BladeCP. Haz clic en \"Conectar con BladeCP\" para empezar de nuevo."
+
+#: includes/class-connect-flow.php
+msgid "Your BladeCP account has too many unfinished connections. Finish or cancel them in BladeCP, or wait a few minutes, then click \"Connect to BladeCP\" again."
+msgstr "Tu cuenta de BladeCP tiene demasiadas conexiones sin terminar. Termínalas o cancélalas en BladeCP, o espera unos minutos, y haz clic en \"Conectar con BladeCP\" otra vez."
+
+#: includes/class-job-presenter.php
+msgid "Listing your site files"
+msgstr "Listando los archivos de tu sitio"
+
+#. translators: %s: number of files.
+#: includes/class-job-presenter.php
+#, php-format
+msgid "%s files found so far"
+msgstr "%s archivos encontrados hasta ahora"
+
+#: includes/class-job-presenter.php
+msgid "Exporting your database"
+msgstr "Exportando tu base de datos"
+
+#. translators: 1: tables done, 2: total tables.
+#: includes/class-job-presenter.php
+#, php-format
+msgid "Table %1$s of %2$s"
+msgstr "Tabla %1$s de %2$s"
+
+#: includes/class-job-presenter.php
+msgid "Building the package"
+msgstr "Creando el paquete"
+
+#. translators: 1: bytes packed, 2: total bytes.
+#: includes/class-job-presenter.php
+#, php-format
+msgid "%1$s of %2$s packed"
+msgstr "%1$s de %2$s empaquetados"
+
+#: includes/class-job-presenter.php
+msgid "Confirming with BladeCP"
+msgstr "Confirmando con BladeCP"
+
+#: includes/class-job-presenter.php
+msgid "Sending the package to BladeCP"
+msgstr "Enviando el paquete a BladeCP"
+
+#. translators: 1: bytes sent, 2: package size.
+#: includes/class-job-presenter.php
+#, php-format
+msgid "%1$s of %2$s sent"
+msgstr "%1$s de %2$s enviados"
+
+#: includes/class-job-presenter.php
+msgid "Package sent to BladeCP"
+msgstr "Paquete enviado a BladeCP"
+
+#: includes/class-job-presenter.php
+msgid "The package could not be finished"
+msgstr "No se pudo terminar el paquete"
+
+#. translators: %d: seconds.
+#: includes/class-job-presenter.php
+#, php-format
+msgid "Trying again in %d second."
+msgid_plural "Trying again in %d seconds."
+msgstr[0] "Se reintentará en %d segundo."
+msgstr[1] "Se reintentará en %d segundos."
+
+#. translators: 1: free disk space, 2: space needed.
+#: includes/class-migration-job.php
+#, php-format
+msgid "Not enough free disk space to build the package: %1$s free, about %2$s needed. Free some space or ask your host for more, then try again."
+msgstr "No hay espacio libre suficiente en disco para crear el paquete: %1$s libres, unos %2$s necesarios. Libera espacio o pide más a tu proveedor de hosting e inténtalo de nuevo."
+
+#: includes/class-migration-job.php
+msgid "The local package is missing or changed. Start the migration again."
+msgstr "El paquete local falta o cambió. Inicia la migración de nuevo."
+
+#: includes/class-migration-job.php
+msgid "This server cannot upload the package: the PHP cURL extension is missing and the memory limit is too low. Ask your host to enable cURL."
+msgstr "Este servidor no puede enviar el paquete: falta la extensión cURL de PHP y el límite de memoria es demasiado bajo. Pide a tu proveedor de hosting que active cURL."
+
+#: includes/class-migration-job.php
+msgid "Uploading a part of the package failed. The plugin will try again."
+msgstr "Falló el envío de una parte del paquete. El plugin lo intentará de nuevo."
+
+#: includes/class-migration-job.php
+msgid "The plugin cannot write to the uploads folder. Check its permissions and free space, then try again."
+msgstr "El plugin no puede escribir en la carpeta de uploads. Revisa sus permisos y el espacio libre e inténtalo de nuevo."
+
+#: includes/class-migration-job.php
+msgid "Writing the package failed. The disk may be full. Free some space, then try again."
+msgstr "Falló la escritura del paquete. El disco puede estar lleno. Libera espacio e inténtalo de nuevo."
+
+#: includes/class-migration-job.php
+msgid "Reading the database failed. Try again, and contact your host if it keeps happening."
+msgstr "Falló la lectura de la base de datos. Inténtalo de nuevo y contacta con tu proveedor de hosting si sigue ocurriendo."
+
+#: includes/class-migration-job.php
+msgid "The database export is missing. Start the migration again."
+msgstr "Falta la exportación de la base de datos. Inicia la migración de nuevo."
+
+#: includes/class-migration-job.php
+msgid "Compressing the package failed. Try again."
+msgstr "Falló la compresión del paquete. Inténtalo de nuevo."
+
+#: includes/class-migration-job.php
+msgid "Something went wrong while preparing the package. Try again."
+msgstr "Algo salió mal al preparar el paquete. Inténtalo de nuevo."
+
+#: includes/class-phases.php
+msgid "Waiting for your site package"
+msgstr "Esperando el paquete de tu sitio"
+
+#: includes/class-phases.php
+msgid "Receiving your site package"
+msgstr "Recibiendo el paquete de tu sitio"
+
+#: includes/class-phases.php
+msgid "Waiting in line"
+msgstr "En la cola"
+
+#: includes/class-phases.php
+msgid "Reading your site package"
+msgstr "Leyendo el paquete de tu sitio"
+
+#: includes/class-phases.php
+msgid "Confirm your domain"
+msgstr "Confirma tu dominio"
+
+#: includes/class-phases.php
+msgid "Preparing your new server"
+msgstr "Preparando tu nuevo servidor"
+
+#: includes/class-phases.php
+msgid "Copying your files and database"
+msgstr "Copiando tus archivos y tu base de datos"
+
+#: includes/class-phases.php
+msgid "Checking the migrated site"
+msgstr "Comprobando el sitio migrado"
+
+#: includes/class-phases.php
+msgid "Ready for your review"
+msgstr "Listo para tu revisión"
+
+#: includes/class-phases.php
+msgid "Applying your approval"
+msgstr "Aplicando tu aprobación"
+
+#: includes/class-phases.php
+msgid "Migration completed"
+msgstr "Migración completada"
+
+#: includes/class-phases.php
+msgid "The migration stopped"
+msgstr "La migración se detuvo"
+
+#: includes/class-phases.php
+msgid "Migration cancelled"
+msgstr "Migración cancelada"
+
+#: includes/class-phases.php
+msgid "Working on your migration"
+msgstr "Trabajando en tu migración"
+
+#: includes/class-phases.php
+msgid "BladeCP is ready. Click \"Start migration\" to build and send the package."
+msgstr "BladeCP está lista. Haz clic en \"Iniciar migración\" para crear y enviar el paquete."
+
+#: includes/class-phases.php
+msgid "The package is being sent to BladeCP."
+msgstr "El paquete se está enviando a BladeCP."
+
+#: includes/class-phases.php
+msgid "BladeCP received the package and is reading it. This usually takes a few minutes."
+msgstr "BladeCP recibió el paquete y lo está leyendo. Esto suele tardar unos minutos."
+
+#: includes/class-phases.php
+msgid "Check the domain BladeCP found in your site and confirm it to continue."
+msgstr "Revisa el dominio que BladeCP encontró en tu sitio y confírmalo para continuar."
+
+#: includes/class-phases.php
+msgid "BladeCP is setting up a copy of your site. Your current site stays online and unchanged."
+msgstr "BladeCP está preparando una copia de tu sitio. Tu sitio actual sigue en línea y sin cambios."
+
+#: includes/class-phases.php
+msgid "Open the preview, check that everything looks right, then approve the migration."
+msgstr "Abre la vista previa, comprueba que todo se vea bien y aprueba la migración."
+
+#: includes/class-phases.php
+msgid "BladeCP is preparing your site to answer on your own domain."
+msgstr "BladeCP está preparando tu sitio para responder en tu propio dominio."
+
+#: includes/class-phases.php
+msgid "Your site is already on your BladeCP server."
+msgstr "Tu sitio ya está en tu servidor BladeCP."
+
+#: includes/class-phases.php
+msgid "BladeCP could not finish the migration. Your current site was not changed."
+msgstr "BladeCP no pudo terminar la migración. Tu sitio actual no se cambió."
+
+#: includes/class-phases.php
+msgid "Nothing was changed on your current site. Connect again to start a new migration."
+msgstr "No se cambió nada en tu sitio actual. Vuelve a conectarte para iniciar una migración nueva."
+
+#: includes/class-phases.php
+msgid "Package"
+msgstr "Paquete"
+
+#: includes/class-phases.php
+msgid "Upload"
+msgstr "Envío"
+
+#: includes/class-phases.php
+msgid "Analysis"
+msgstr "Análisis"
+
+#: includes/class-phases.php
+msgid "Import"
+msgstr "Importación"
+
+#: includes/class-phases.php
+msgid "Preview"
+msgstr "Vista previa"
+
+#. translators: last stage of the migration trail, as in "Stage 6 of 6: Complete".
+#: includes/class-phases.php
+msgid "Complete"
+msgstr "Completada"
+
+#: includes/class-preflight.php
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-preflight.php
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/class-preflight.php
+msgid "Multisite network"
+msgstr "Red multisitio"
+
+#: includes/class-preflight.php
+msgid "Site type"
+msgstr "Tipo de sitio"
+
+#: includes/class-preflight.php
+msgid "This plugin moves a single WordPress site. Multisite networks are not supported by this plugin yet."
+msgstr "Este plugin mueve un único sitio WordPress. Las redes multisitio aún no son compatibles con este plugin."
+
+#: includes/class-preflight.php
+msgid "Single site"
+msgstr "Sitio único"
+
+#: includes/class-preflight.php
+msgid "BladeCP can only connect to a WordPress dashboard served over HTTPS. Open this page with https:// (install an SSL certificate first if your site has none)."
+msgstr "BladeCP solo puede conectarse a un escritorio de WordPress servido por HTTPS. Abre esta página con https:// (instala antes un certificado SSL si tu sitio no tiene)."
+
+#: includes/class-preflight.php
+msgid "Not available"
+msgstr "No disponible"
+
+#: includes/class-preflight.php
+msgid "Secure connection"
+msgstr "Conexión segura"
+
+#: includes/class-preflight.php
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: includes/class-preflight.php
+msgid "Local test address (HTTP)"
+msgstr "Dirección local de prueba (HTTP)"
+
+#: includes/class-preflight.php
+msgid "32-bit"
+msgstr "32 bits"
+
+#: includes/class-preflight.php
+msgid "A 64-bit PHP is required to build packages larger than 2 GB. Ask your host to switch to 64-bit PHP."
+msgstr "Se necesita PHP de 64 bits para crear paquetes de más de 2 GB. Pide a tu proveedor de hosting que use PHP de 64 bits."
+
+#: includes/class-preflight.php
+msgid "PHP build"
+msgstr "Compilación de PHP"
+
+#: includes/class-preflight.php
+msgid "Streaming (cURL)"
+msgstr "En flujo (cURL)"
+
+#: includes/class-preflight.php
+msgid "Upload method"
+msgstr "Método de envío"
+
+#: includes/class-preflight.php
+msgid "In memory"
+msgstr "En memoria"
+
+#: includes/class-preflight.php
+msgid "The PHP cURL extension is missing, so each 64 MB part is uploaded from memory. It works, but cURL is lighter."
+msgstr "Falta la extensión cURL de PHP, así que cada parte de 64 MB se envía desde la memoria. Funciona, pero cURL es más ligero."
+
+#: includes/class-preflight.php
+msgid "The PHP cURL extension is missing and the memory limit is too low to upload 64 MB parts. Ask your host to enable cURL."
+msgstr "Falta la extensión cURL de PHP y el límite de memoria es demasiado bajo para enviar partes de 64 MB. Pide a tu proveedor de hosting que active cURL."
+
+#: includes/class-preflight.php
+msgid "Compression"
+msgstr "Compresión"
+
+#: includes/class-preflight.php
+msgid "gzip"
+msgstr "gzip"
+
+#: includes/class-preflight.php
+msgid "Off"
+msgstr "Desactivada"
+
+#: includes/class-preflight.php
+msgid "The PHP zlib extension is missing, so the package is not compressed and will take longer to upload."
+msgstr "Falta la extensión zlib de PHP, así que el paquete no se comprime y tardará más en enviarse."
+
+#: includes/class-preflight.php
+msgid "Background work"
+msgstr "Trabajo en segundo plano"
+
+#: includes/class-preflight.php
+msgid "WP-Cron is disabled on this site. Keep this page open while the package is built and uploaded."
+msgstr "WP-Cron está desactivado en este sitio. Mantén esta página abierta mientras se crea y se envía el paquete."
+
+#: includes/class-preflight.php
+msgid "WP-Cron off"
+msgstr "WP-Cron desactivado"
+
+#: includes/class-preflight.php
+msgid "Available"
+msgstr "Disponible"
+
+#: includes/class-preflight.php
+msgid "Keeping this page open is fastest. If you close it, the work continues more slowly in the background."
+msgstr "Mantener esta página abierta es lo más rápido. Si la cierras, el trabajo continúa en segundo plano, más despacio."
+
+#: includes/class-preflight.php
+msgid "Site address"
+msgstr "Dirección del sitio"
+
+#: includes/class-preflight.php
+msgid "Sites served from a subfolder (for example example.com/blog) are not supported yet."
+msgstr "Los sitios servidos desde una subcarpeta (por ejemplo example.com/blog) aún no son compatibles."
+
+#: includes/class-preflight.php
+msgid "This site keeps WordPress in its own folder, apart from the site address. This setup is not supported yet."
+msgstr "Este sitio tiene WordPress en su propia carpeta, separada de la dirección del sitio. Esta configuración aún no es compatible."
+
+#: includes/class-preflight.php
+msgid "The site address cannot be used for a migration: use a regular domain name of up to 63 characters."
+msgstr "La dirección del sitio no se puede usar para una migración: usa un nombre de dominio normal de hasta 63 caracteres."
+
+#: includes/class-preflight.php
+msgid "Encryption"
+msgstr "Cifrado"
+
+#: includes/class-preflight.php
+msgid "OpenSSL (AES-256-GCM)"
+msgstr "OpenSSL (AES-256-GCM)"
+
+#: includes/class-preflight.php
+msgid "sodium"
+msgstr "sodium"
+
+#. translators: 1: memory limit (for example 256 MB), 2: time limit in seconds or "none".
+#: includes/class-preflight.php
+#, php-format
+msgid "Memory %1$s, time limit %2$s"
+msgstr "Memoria %1$s, tiempo límite %2$s"
+
+#: includes/class-preflight.php
+msgid "unlimited"
+msgstr "ilimitada"
+
+#. translators: %d: seconds.
+#: includes/class-preflight.php
+#, php-format
+msgid "%d s"
+msgstr "%d s"
+
+#: includes/class-preflight.php
+msgid "none"
+msgstr "ninguno"
+
+#: includes/class-preflight.php
+msgid "PHP limits"
+msgstr "Límites de PHP"
+
+#: includes/class-preflight.php
+msgid "The memory limit is low. The plugin works in small steps, but raising it to 128 MB or more makes the migration faster and safer."
+msgstr "El límite de memoria es bajo. El plugin trabaja en pasos pequeños, pero subirlo a 128 MB o más hace la migración más rápida y segura."
+
+#: includes/class-preflight.php
+msgid "The package is built in short steps, so low limits only make it slower."
+msgstr "El paquete se crea en pasos cortos, así que los límites bajos solo lo hacen más lento."
+
+#: includes/class-preflight.php
+msgid "Site files"
+msgstr "Archivos del sitio"
+
+#: includes/class-preflight.php
+msgid "Measuring..."
+msgstr "Midiendo..."
+
+#. translators: 1: number of files, 2: total size.
+#: includes/class-preflight.php
+#, php-format
+msgid "%1$s file, %2$s"
+msgid_plural "%1$s files, %2$s"
+msgstr[0] "%1$s archivo, %2$s"
+msgstr[1] "%1$s archivos, %2$s"
+
+#. translators: %s: number of items.
+#: includes/class-preflight.php
+#, php-format
+msgid "%s item cannot be copied (a symbolic link or an unreadable file) and will be skipped."
+msgid_plural "%s items cannot be copied (symbolic links or unreadable files) and will be skipped."
+msgstr[0] "%s elemento no se puede copiar (un enlace simbólico o un archivo ilegible) y se omitirá."
+msgstr[1] "%s elementos no se pueden copiar (enlaces simbólicos o archivos ilegibles) y se omitirán."
+
+#: includes/class-preflight.php
+msgid "Database"
+msgstr "Base de datos"
+
+#. translators: 1: size, 2: number of tables.
+#: includes/class-preflight.php
+#, php-format
+msgid "%1$s in %2$s table"
+msgid_plural "%1$s in %2$s tables"
+msgstr[0] "%1$s en %2$s tabla"
+msgstr[1] "%1$s en %2$s tablas"
+
+#: includes/class-preflight.php
+msgid "The database table prefix uses characters the migration does not accept (only letters, digits and underscores)."
+msgstr "El prefijo de las tablas de la base de datos usa caracteres que la migración no acepta (solo letras, números y guiones bajos)."
+
+#: includes/class-preflight.php
+msgid "The database character set or collation in wp-config.php uses characters the migration does not accept."
+msgstr "El juego de caracteres o la intercalación de la base de datos en wp-config.php usa caracteres que la migración no acepta."
+
+#: includes/class-preflight.php
+msgid "Free disk space"
+msgstr "Espacio libre en disco"
+
+#: includes/class-preflight.php
+msgid "Not writable"
+msgstr "Sin permiso de escritura"
+
+#: includes/class-preflight.php
+msgid "The plugin cannot write to the uploads folder (wp-content/uploads), where the package is built. Check the folder permissions."
+msgstr "El plugin no puede escribir en la carpeta de uploads (wp-content/uploads), donde se crea el paquete. Revisa los permisos de la carpeta."
+
+#: includes/class-preflight.php
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: includes/class-preflight.php
+msgid "This site is larger than the 50 GB limit of a migration package."
+msgstr "Este sitio supera el límite de 50 GB de un paquete de migración."
+
+#. translators: %s: estimated package size.
+#: includes/class-preflight.php
+#, php-format
+msgid "The package is built here before it is sent, so it needs up to %s of free space."
+msgstr "El paquete se crea aquí antes de enviarse, así que necesita hasta %s de espacio libre."
+
+#: includes/class-preflight.php
+msgid "This server does not report its free space."
+msgstr "Este servidor no informa su espacio libre."
+
+#: includes/class-preflight.php
+msgid "There is not enough free disk space."
+msgstr "No hay suficiente espacio libre en disco."
